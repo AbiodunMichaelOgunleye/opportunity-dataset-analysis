@@ -1,7 +1,7 @@
-# Opportunity Dataset — Data Cleaning, Analysis & Interactive Dashboard
+# Opportunity Dataset - Data Cleaning, Analysis & Interactive Dashboard
 
 **Program:** Excelerate — Data Visualization Trainee Program (Cohort 0308 SLU DVT)
-**Role:** Documentation, Analysis Review & Project Coordination (Team 1)
+**Role:** Documentation, Analysis Review, Project Coordination, Data Visualization and Presentation (Team 1)
 **Team:** Abiodun Michael Ogunleye, Queen Bella, Aman Gupta, Fatima Saifuddin
 **Tools:** Python (pandas), Microsoft Excel, Power BI Desktop
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-This project took a raw, messy 5,733-record "Opportunity" dataset - internships, courses, competitions, and events listed on a learner platform — through a complete data pipeline: cleaning, exploratory analysis, and an interactive Power BI dashboard. The goal was to turn an unreliable export into a trustworthy, analysis-ready dataset and surface actionable insights for the platform's data owner.
+This project took a raw, messy 5,733-record "Opportunity" dataset - internships, courses, competitions, and events listed on a learner platform through a complete data pipeline: cleaning, exploratory analysis, and an interactive Power BI dashboard. The goal was to turn an unreliable export into a trustworthy, analysis-ready dataset and surface actionable insights for the platform's data owner.
 
 **The core challenge:** over 70% of the raw file turned out to be internal test and demo data, not real opportunities — identifying and handling that correctly shaped every decision in this project.
 
@@ -29,7 +29,7 @@ The raw export had five distinct quality issues:
 
 ## My Approach
 
-I used a structured five-part quality framework — **M.I.I.D.E.** (Missing values, Incorrect entries, Inconsistent formatting, Duplicate/invalid records, Empty fields) - to make sure every issue category was identified and addressed systematically, not fixed ad hoc.
+I used a structured five-part quality framework : **M.I.I.D.E.** (Missing values, Incorrect entries, Inconsistent formatting, Duplicate/invalid records, Empty fields) - to make sure every issue category was identified and addressed systematically, not fixed ad hoc.
 
 **The key decision: flag, don't delete.**
 Rather than silently removing the 4,186 suspected test records, I flagged them in a new `is_test_or_placeholder` column and kept them in the dataset. This meant:
@@ -54,21 +54,21 @@ Result: **5,733 raw records → 5,728 after removing 5 corrupted rows → 1,542 
 ## Exploratory Data Analysis - Key Findings
 
 **1. Sign-ups arrive in waves, not steady growth**
-The busiest quarter (2025 Q4, 263 opportunities) had over 100× the volume of the quietest (2022 Q4, just 2). This points to opportunities being published in batches — likely tied to recruitment cycles or partner onboarding — rather than a continuous pipeline.
+The busiest quarter (2025 Q4, 263 opportunities) had over 100× the volume of the quietest (2022 Q4, just 2). This points to opportunities being published in batches - likely tied to recruitment cycles or partner onboarding — rather than a continuous pipeline.
 
 **2. One category dominates the platform**
 Internship accounts for 52.1% of all opportunities — more than 5× the next largest category (Competition). Platform-wide metrics move almost entirely with whatever is happening inside this one category.
 
 **3. Remote formats lead delivery**
-Work From Home (644) and Virtual (509) together make up 75% of all opportunities with a recorded location. A quarter of records (387) had no location specified — flagged as a genuine data-completeness gap rather than hidden.
+Work From Home (644) and Virtual (509) together make up 75% of all opportunities with a recorded location. A quarter of records (387) had no location specified - flagged as a genuine data-completeness gap rather than hidden.
 
 **4. Volume ≠ value (the most interesting finding)**
 Despite Internship having 5× the volume of Course, **Course offers the highest median scholarship value (120) — nearly 3× higher than Internship's (42)**. The category with the most opportunities is not the category offering the most financial value.
 
 **5. Honest data gaps, disclosed not hidden**
 Two limitations were identified and reported rather than glossed over:
-- *Outreach channel performance* cannot be measured — no field records how a participant discovered an opportunity
-- *Scholarship currency* is unconfirmed — median values differ noticeably by currency (USD 120, EUR 67, INR 49) when cross-referenced against the fee field, suggesting values may need standardization before financial comparison
+- *Outreach channel performance* cannot be measured - no field records how a participant discovered an opportunity
+- *Scholarship currency* is unconfirmed - median values differ noticeably by currency (USD 120, EUR 67, INR 49) when cross-referenced against the fee field, suggesting values may need standardization before financial comparison
 
 ---
 
@@ -96,7 +96,7 @@ Built in Power BI Desktop with four live filters (Category, Quarter, Location, S
 
 ## What I'd Do Differently
 
-Reviewer feedback on the Week 2 submission flagged that scholarship values weren't standardized to a single currency before comparison — a fair catch. In hindsight, currency standardization should have happened at the Week 1 cleaning stage, before any median or average was calculated, rather than being identified and documented as a limitation after the fact. This is noted as an open recommendation in the final report and would be the first fix in a second iteration of this project.
+Reviewer feedback on the Week 2 submission flagged that scholarship values weren't standardized to a single currency before comparison - a fair catch. In hindsight, currency standardization should have happened at the Week 1 cleaning stage, before any median or average was calculated, rather than being identified and documented as a limitation after the fact. This is noted as an open recommendation in the final report and would be the first fix in a second iteration of this project.
 
 ---
 
@@ -104,5 +104,5 @@ Reviewer feedback on the Week 2 submission flagged that scholarship values weren
 
 I'm Abiodun Michael Ogunleye, founder of INxEX Tech Ltd. and a Business Administration graduate developing my skills in data analysis using Excel, Power BI, SQL, and Python. I’m interested in using data to solve business problems and support better decision-making.
 
-**Connect:** linkedin.com/in/abiodun-michael-ogunleye-7351a823b
+**Connect:** https://linkedin.com/in/abiodun-michael-ogunleye-7351a823b
 
