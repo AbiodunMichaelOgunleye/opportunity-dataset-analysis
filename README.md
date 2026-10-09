@@ -86,11 +86,11 @@ Built in Power BI Desktop with four live filters (Category, Quarter, Location, S
 
 | File | Description |
 |---|---|
-| `data/Team1_Cleaned_Opportunity_Dataset.xlsx` | Final cleaned dataset with cleaning log, flag columns, and an isolated "Active Opportunities" sheet |
-| `documentation/Data_Cleaning_Documentation.pdf` | Full Week 1 cleaning methodology and audit trail |
-| `documentation/Week2_EDA_Report.pdf` | Exploratory data analysis with charts, tables, and findings |
-| `documentation/Insights_Interpretation_Report.pdf` | Dashboard-companion report with recommendations |
-| `presentation/Team1_Final_Presentation.pptx` | Final stakeholder presentation deck |
+| `Team1_Cleaned_Opportunity_Dataset.xlsx` | Final cleaned dataset with cleaning log, flag columns, and an isolated "Active Opportunities" sheet |
+| `Data_Cleaning_Documentation.pdf` | Full Week 1 cleaning methodology and audit trail |
+| `EDA_Report.pdf` | Exploratory data analysis with charts, tables, and findings |
+| `Insights_Interpretation_Report.pdf` | Dashboard-companion report with recommendations |
+| `Team1_Final_Presentation.pptx` | Final stakeholder presentation deck |
 
 ---
 
@@ -104,4 +104,5 @@ Reviewer feedback on the Week 2 submission flagged that scholarship values weren
 
 I'm Abiodun Michael Ogunleye, founder of INxEX Tech Ltd. and a Business Administration graduate developing my skills in data analysis using Excel, Power BI, SQL, and Python. I’m interested in using data to solve business problems and support better decision-making.
 
-**Connect:** [linkedin.com/in/abiodun-michael-ogunleye-7351a823b] ·
+**Connect:** linkedin.com/in/abiodun-michael-ogunleye-7351a823b
+
