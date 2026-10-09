@@ -78,7 +78,7 @@ Built in Power BI Desktop with four live filters (Category, Quarter, Location, S
 
 🔗 **Live Dashboard:** [https://drive.google.com/file/d/1iAT86DhpBbor2nXVcbFI31eiDe6zN0tH/view?usp=drive_link]
 
-![Dashboard Screenshot](dashboard/dashboard_screenshot.png)
+![Dashboard Screenshot](dashboarddashboard_screenshot.png.jpg)
 
 ---
 
