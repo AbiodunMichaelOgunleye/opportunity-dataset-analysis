@@ -76,7 +76,7 @@ Two limitations were identified and reported rather than glossed over:
 
 Built in Power BI Desktop with four live filters (Category, Quarter, Location, Scholarship) and six core visualizations: sign-up trend, category volume, location distribution, scholarship availability, median scholarship by category, and a category × scholarship breakdown.
 
-🔗 **Live Dashboard:** [Add your published Power BI link here]
+🔗 **Live Dashboard:** [https://drive.google.com/file/d/1iAT86DhpBbor2nXVcbFI31eiDe6zN0tH/view?usp=drive_link]
 
 ![Dashboard Screenshot](dashboard/dashboard_screenshot.png)
 
