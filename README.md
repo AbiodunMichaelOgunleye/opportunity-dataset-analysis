@@ -102,6 +102,6 @@ Reviewer feedback on the Week 2 submission flagged that scholarship values weren
 
 ## About Me
 
-I'm Abiodun Michael Ogunleye, founder of INxEX Tech Ltd. and currently building toward Big Four-style data consulting work. This project was part of my continued push into SQL and Python as core technical skills, alongside Excel and Power BI. More of my data work is available on this GitHub profile and on Medium.
+I'm Abiodun Michael Ogunleye, founder of INxEX Tech Ltd. and a Business Administration graduate developing my skills in data analysis using Excel, Power BI, SQL, and Python. I’m interested in using data to solve business problems and support better decision-making.
 
-**Connect:** [LinkedIn] · [Medium] · [Portfolio Site]
+**Connect:** [linkedin.com/in/abiodun-michael-ogunleye-7351a823b] ·
