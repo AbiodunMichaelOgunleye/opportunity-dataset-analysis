@@ -9,7 +9,7 @@
 
 ## Overview
 
-This project took a raw, messy 5,733-record "Opportunity" dataset — internships, courses, competitions, and events listed on a learner platform — through a complete data pipeline: cleaning, exploratory analysis, and an interactive Power BI dashboard. The goal was to turn an unreliable export into a trustworthy, analysis-ready dataset and surface actionable insights for the platform's data owner.
+This project took a raw, messy 5,733-record "Opportunity" dataset - internships, courses, competitions, and events listed on a learner platform — through a complete data pipeline: cleaning, exploratory analysis, and an interactive Power BI dashboard. The goal was to turn an unreliable export into a trustworthy, analysis-ready dataset and surface actionable insights for the platform's data owner.
 
 **The core challenge:** over 70% of the raw file turned out to be internal test and demo data, not real opportunities — identifying and handling that correctly shaped every decision in this project.
 
@@ -29,7 +29,7 @@ The raw export had five distinct quality issues:
 
 ## My Approach
 
-I used a structured five-part quality framework — **M.I.I.D.E.** (Missing values, Incorrect entries, Inconsistent formatting, Duplicate/invalid records, Empty fields) — to make sure every issue category was identified and addressed systematically, not fixed ad hoc.
+I used a structured five-part quality framework — **M.I.I.D.E.** (Missing values, Incorrect entries, Inconsistent formatting, Duplicate/invalid records, Empty fields) - to make sure every issue category was identified and addressed systematically, not fixed ad hoc.
 
 **The key decision: flag, don't delete.**
 Rather than silently removing the 4,186 suspected test records, I flagged them in a new `is_test_or_placeholder` column and kept them in the dataset. This meant:
@@ -51,7 +51,7 @@ Result: **5,733 raw records → 5,728 after removing 5 corrupted rows → 1,542 
 
 ---
 
-## Exploratory Data Analysis — Key Findings
+## Exploratory Data Analysis - Key Findings
 
 **1. Sign-ups arrive in waves, not steady growth**
 The busiest quarter (2025 Q4, 263 opportunities) had over 100× the volume of the quietest (2022 Q4, just 2). This points to opportunities being published in batches — likely tied to recruitment cycles or partner onboarding — rather than a continuous pipeline.
